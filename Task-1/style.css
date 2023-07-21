@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.navbar-top{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+  
+
+}
+.social-link i img{
+     margin-left: 10px; 
+    transition: 0.5s ease;
+    cursor: pointer;
+  
+}
+.social-link i img:hover{
+    background-color:grey;
+    border-radius: 50px;
+  
+}
+.logo {
+    
+    font-size: 2.5rem;
+    font-weight:bold;
+    color:black;
+}
+.icons i img{
+    margin-left: 10px;
+    transition: 0.5s ease;
+    cursor: pointer;
+   
+}
+.main-content{
+    width: 100%;
+    height: 100vh;
+    background-image: url(./image/img1.jpg);
+    background-size: cover;
+    background-position: 70%;
+
+}
+.content{
+    margin-top: 150px;
+    margin-left: 30px;
+}
+.content h1{
+    font-size: 50px;
+}
+#navbar-color{
+    background-color: rgb(156, 201, 240);
+    
+}
+.nav-link{
+    margin-left: 30px;
+    font-weight: bold;
+    color: black;
+    transition: 0.5s ease;
+    cursor: pointer;
+    
+}
+.nav-link:hover{
+    color: blue;
+}
+#btn1 button{
+    width: 150px;
+    height: 32px;
+    background: white;
+    border: 1px solid black;
+    letter-spacing: 3px;
+    font-weight: small;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+#btn1 button:hover{
+    background-color: blue;
+}
+.card body{
+   width:305px; 
+}
+#btn2 button{
+    width: 150px;
+    height: 32px;
+    background: white;
+    border: 1px solid black;
+    letter-spacing: 3px;
+    font-weight: small;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+#btn2 button:hover{
+    background-color: blue;
+}
